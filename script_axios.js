@@ -17,7 +17,7 @@ button.addEventListener('click', () => {
     })
     .catch(error => console.log(error)) */
 
-    //Otra manera mas optima de usarlo
+    //Otra manera de hacer lo mismo pero de una manera optima
     const getUser = async () => {
         const {data:user} = await axios.get('https://jsonplaceholder.typicode.com/users')
         const list = document.getElementById('list');

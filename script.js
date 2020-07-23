@@ -1,18 +1,22 @@
-//Ejemplo sencillo
-/* const getName = () => {
+/* Ejemplo sencillo de como usar promesas siguiendo la documentacion oficial de la MDN */
+/* 
+//Crear una funcion para retornar mi nombre de una manera sencilla
+const getName = () => {
     return 'Ossany';
 }
-
+//Mostrar el nombre
 console.log(getName()); */
-//Ejemplo con promesas
+
+//Crear una promesas para lograr lo mismo
 /* const getName = () => {
     return new Promise((resolve, reject) => {
         resolve('Ossany');
     });
 }
-
+//Haciendo uso de la promesa y de su metodo then
 getName().then(res => console.log(res)); */
-//Ejemplo con Async Await
+
+//Haciendo uso de Async Await y setTimeout para devolver el nombre con un time de demora
 /* const getName = async () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -23,6 +27,7 @@ getName().then(res => console.log(res)); */
 }
 
 getName().then(res => console.log(res)); */
+
 //Llamando a la funcion desde otra funcion para mostrar la necesidad de usar async cuando llamamos a API
 /* const getName = async () => {
     return new Promise((resolve, reject) => {
