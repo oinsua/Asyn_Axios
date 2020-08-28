@@ -32,5 +32,4 @@ button.addEventListener('click', () => {
     }
 
     getUser();  
-
 })

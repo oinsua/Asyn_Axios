@@ -104,5 +104,5 @@ const getInfo = async (id) => {
 //Asi devuelve una promesa por lo tanto hay que usar el then
 //console.log(getInfo())
 
-getInfo(1).then(res => console.log(res));
+//getInfo(1).then(res => console.log(res));
 
